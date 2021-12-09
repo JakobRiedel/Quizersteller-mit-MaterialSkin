@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hnLl8jjbsYyNpb8loVPzhMuh3J3T3EXC4XVYu1I1M8DvMZ6FJvPS8gkh4jWij0QAkdnU+IiPwnJ3hbMk53ck3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jakob.riedel\\source\\repos\\Quizersteller\\Quizersteller.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jakob.riedel\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
+    "C:\\Users\\jakob.riedel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
