@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakob.riedel\\source\\repos\\Quizersteller\\Quizersteller.csproj": {}
+    "C:\\Users\\jakob.riedel\\Documents\\GitHub\\Quizersteller mit Material Skin\\Quizersteller\\Quizersteller.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakob.riedel\\source\\repos\\Quizersteller\\Quizersteller.csproj": {
+    "C:\\Users\\jakob.riedel\\Documents\\GitHub\\Quizersteller mit Material Skin\\Quizersteller\\Quizersteller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob.riedel\\source\\repos\\Quizersteller\\Quizersteller.csproj",
+        "projectUniqueName": "C:\\Users\\jakob.riedel\\Documents\\GitHub\\Quizersteller mit Material Skin\\Quizersteller\\Quizersteller.csproj",
         "projectName": "Quizersteller",
-        "projectPath": "C:\\Users\\jakob.riedel\\source\\repos\\Quizersteller\\Quizersteller.csproj",
+        "projectPath": "C:\\Users\\jakob.riedel\\Documents\\GitHub\\Quizersteller mit Material Skin\\Quizersteller\\Quizersteller.csproj",
         "packagesPath": "C:\\Users\\jakob.riedel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob.riedel\\source\\repos\\Quizersteller\\obj\\",
+        "outputPath": "C:\\Users\\jakob.riedel\\Documents\\GitHub\\Quizersteller mit Material Skin\\Quizersteller\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
