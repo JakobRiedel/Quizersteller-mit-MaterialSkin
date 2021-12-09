@@ -42,8 +42,6 @@ namespace Quizersteller
         public string OA = "";
 
        
-        
-
 
         // material Checkboxen
         private void materialCheckbox1_CheckedChanged(object sender, EventArgs e)
@@ -267,6 +265,22 @@ namespace Quizersteller
                 if (i > 4) { Choicelabel choicelabelE2 = frageblock2.choices.ElementAt(4); txt5.Text = choicelabelE2.text; }
                 if (i > 5) { Choicelabel choicelabelF2 = frageblock2.choices.ElementAt(5); txt6.Text = choicelabelF2.text; }
                 if (i > 6) { Choicelabel choicelabelG2 = frageblock2.choices.ElementAt(6); txt7.Text = choicelabelG2.text; }
+
+                //die Textboxen werden wiederhergestellt
+                // if formulierungen, da nicht alle fragen 7 antworten haben
+                txtfrage.Text = question2.text;
+                txt1.Text = choicelabelA2.text;
+                txt2.Text = choicelabelB2.text;
+                txt3.Text = choicelabelC2.text;
+                txt4.Text = choicelabelD2.text;
+                //der Status der Checkboxen wird wiederhergestellt
+                if (frageblock2.answer.ElementAt(0) == true) { materialCheckbox1.Checked = true; } else { materialCheckbox1.Checked = false; }
+                if (frageblock2.answer.ElementAt(1) == true) { materialCheckbox2.Checked = true; } else { materialCheckbox2.Checked = false; }
+                if (frageblock2.answer.ElementAt(2) == true) { materialCheckbox3.Checked = true; } else { materialCheckbox3.Checked = false; }
+                if (frageblock2.answer.ElementAt(3) == true) { materialCheckbox4.Checked = true; } else { materialCheckbox4.Checked = false; }
+                if (i > 4 && frageblock2.answer.ElementAt(4) == true) { materialCheckbox5.Checked = true; } else { materialCheckbox5.Checked = false; }
+                if (i > 5 && frageblock2.answer.ElementAt(5) == true) { materialCheckbox6.Checked = true; } else { materialCheckbox6.Checked = false; }
+                if (i > 6 && frageblock2.answer.ElementAt(6) == true) { materialCheckbox7.Checked = true; } else { materialCheckbox7.Checked = false; }
                 //die Textboxen werden wiederhergestellt
                 // if formulierungen, da nicht alle fragen 7 antworten haben
                 txtfrage.Text = question2.text;
@@ -283,7 +297,6 @@ namespace Quizersteller
                 if (i > 5 && frageblock2.answer.ElementAt(5) == true) { materialCheckbox6.Checked = true; } else { materialCheckbox6.Checked = false; }
                 if (i > 6 && frageblock2.answer.ElementAt(6) == true) { materialCheckbox7.Checked = true; } else { materialCheckbox7.Checked = false; }
             }
-
 
         }
 
